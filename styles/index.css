@@ -1,0 +1,59 @@
+*{
+    font-family: "Montserrat";
+    margin: 0px;
+    padding: 0px;
+}
+
+.loginb img{
+    height: 50px;
+}
+.loginb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 150px;
+}
+body{
+    background-image: url(../images/bg.png) ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg, black, 0%, transparent, 100%);
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+#pular{
+    background-color: white;
+    width: 65px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+#pular a{
+    text-decoration: none;
+    color: #f0b92d;
+    font-size: 13px;
+    font-weight: bold;
+}
+#texto-login *{
+    margin: 5px;
+}
+#login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
